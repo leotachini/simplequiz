@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Quiz</h1>
+<audio id="erro">
+    <source src="audio/erro.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="acerto">
+    <source src="audio/acerto2.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="susto">
+    <source src="audio/inception.mp3" type="audio/mpeg">
+  </audio>
+
+<h3 class="pontuacao">Pontuação: <p id="acertos"></p></h3>
+
+<h3 class="erros">Erros: <p id="erros"></p></h3>
+
+<h2 id="tempo"></h2>
+
+<div id="question">
+    <h3 id="pergunta">Pergunta</h3>
+    <div class="alternativas">
+        <button id="opcao1"></button>
+        <button id="opcao2"></button>
+        <button id="opcao3"></button>
+        <button id="opcao4"></button>
+    </div>
+    <!--<button id="proximo">Próximo</button>-->
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

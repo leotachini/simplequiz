@@ -1,0 +1,84 @@
+.pontuacao{
+    color:cornflowerblue;
+    font-size: 20px;
+}
+.erros{
+    color:cornflowerblue;
+    font-size: 20px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 204, 204)
+}
+
+.alternativas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.alternativas button{
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(150, 1, 1);
+    cursor: pointer;
+    border: 1px solid white;
+    font-weight: bolder;
+    word-break: break-all;
+    min-width: 100px;
+    max-width: 500px;
+    color: white;
+}
+
+.alternativas button:hover{
+    background-color: rgb(0, 0, 65);
+    border: 2.5px solid black;
+    color: aliceblue;
+}
+
+#question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+h1{
+    color: rgb(0, 0, 65);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#proximo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0px solid white;
+    cursor: pointer;
+    font-size: large;
+    background-color: midnightblue;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-left: 450px ;
+}
+
+#proximo:hover{
+    border: 2px solid black;
+}
+
