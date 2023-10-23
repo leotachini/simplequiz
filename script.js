@@ -40,7 +40,7 @@ const opcao3 = [
         "Aproximadamente 27 dias",
         "Nairobi",
         "Nelson Rodrigues",
-        "Processo de conversão de energia luminosa em energia química feito pelas plantas",
+        "Um método de produção de energia da luz solar feito pelas plantas",
         "Difração",
         "Sócrates",
         "Nucleosídeo",
@@ -52,7 +52,7 @@ const opcao3 = [
         "Aproximadamente 29 dias",
         "Botswana",
         "Sófocles",
-        "Um método de produção de eletricidade a partir da queima de combustíveis fósseis",
+        "Um método de produção de eletricidade da queima de combustíveis",
         "Polarização",
         "Marco Aurélio",
         "Nucleobase",
@@ -104,7 +104,7 @@ function proximaPergunta(){
  
   if(x > 9){
     alert("Fim de jogo");
-    alert(`Você acertou ${acertos} e errou ${erros} perguntas`)
+    alert(`Você errou ${erros} e acertou ${acertos} perguntas`)
     window.location.reload()  
     x = 0
 }
