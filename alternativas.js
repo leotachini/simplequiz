@@ -12,7 +12,7 @@ const opcao1 = [
 ]
 const opcao2 = [
     "Copérnico",
-    "Aproximadamente 23 dias",
+    "Aproximadamente 22 dias",
     "Cidade do Quênia",
     "William Shakespeare",
     "O processo de mudança de cor de alguma coisa",
@@ -36,7 +36,7 @@ const opcao3 = [
 ]
 const opcao4 = [
     "Galileu Galilei",
-    "Aproximadamente 29 dias",
+    "Aproximadamente 31 dias",
     "Botswana",
     "Sófocles",
     "Um método de produção de eletricidade da queima de combustíveis",
